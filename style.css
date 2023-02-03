@@ -21,10 +21,11 @@ nav{
     align-items: center;
 }
 nav img{
-    widows: 150;
+    width: 150px;
     
-}~
-nav-links{    
+}
+
+.nav-links{    
     flex: 1;
     text-align: right;
     
@@ -99,7 +100,7 @@ nav-links{
   
         
 }
-nav .far{
+nav .fa{
     display: none;
     
 }
@@ -126,7 +127,7 @@ nav .far{
     
     nav .fa{
         display: block;
-        color: white;
+        color: #fff;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
